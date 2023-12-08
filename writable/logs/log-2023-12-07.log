@@ -1,0 +1,455 @@
+WARNING - 2023-12-07 22:25:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-07 22:26:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-07 22:26:36 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: YES) in C:\xampp\htdocs\lhyant.api.spp\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\lhyant.api.spp\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'db_spp', 3307, '', 0)
+#1 C:\xampp\htdocs\lhyant.api.spp\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\lhyant.api.spp\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\lhyant.api.spp\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\lhyant.api.spp\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\lhyant.api.spp\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\lhyant.api.spp\app\Controllers\Login.php(32): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\lhyant.api.spp\system\CodeIgniter.php(942): App\Controllers\Login->index()
+#8 C:\xampp\htdocs\lhyant.api.spp\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\lhyant.api.spp\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\lhyant.api.spp\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: YES) in C:\xampp\htdocs\lhyant.api.spp\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\lhyant.api.spp\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\lhyant.api.spp\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\lhyant.api.spp\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\lhyant.api.spp\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\lhyant.api.spp\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\lhyant.api.spp\app\Controllers\Login.php(32): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\lhyant.api.spp\system\CodeIgniter.php(942): App\Controllers\Login->index()
+#7 C:\xampp\htdocs\lhyant.api.spp\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\lhyant.api.spp\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\lhyant.api.spp\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-07 22:26:36 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `user_email` = :user_email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Login.php(32): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-07 22:32:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-07 22:35:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-07 23:23:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-07 23:24:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-07 23:26:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-07 23:31:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-07 23:49:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-07 23:49:55 --> Undefined array key "email"
+in APPPATH\Controllers\Login.php on line 46.
+ 1 APPPATH\Controllers\Login.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\xampp\\htdocs\\lhyant.api.spp\\app\\Controllers\\Login.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-07 23:50:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-07 23:50:06 --> Undefined array key "email"
+in APPPATH\Controllers\Login.php on line 46.
+ 1 APPPATH\Controllers\Login.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\xampp\\htdocs\\lhyant.api.spp\\app\\Controllers\\Login.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-07 23:50:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-07 23:50:58 --> Undefined array key "email"
+in APPPATH\Controllers\Login.php on line 48.
+ 1 APPPATH\Controllers\Login.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\xampp\\htdocs\\lhyant.api.spp\\app\\Controllers\\Login.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-07 23:52:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-07 23:52:34 --> Undefined array key "email"
+in APPPATH\Controllers\Login.php on line 46.
+ 1 APPPATH\Controllers\Login.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\xampp\\htdocs\\lhyant.api.spp\\app\\Controllers\\Login.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-07 23:52:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-07 23:52:37 --> Undefined array key "email"
+in APPPATH\Controllers\Login.php on line 46.
+ 1 APPPATH\Controllers\Login.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\xampp\\htdocs\\lhyant.api.spp\\app\\Controllers\\Login.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-07 23:52:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-07 23:52:56 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\xampp\htdocs\lhyant.api.spp\app\Controllers\Login.php on line 48 and at least 3 expected
+in FCPATH\vendor\firebase\php-jwt\src\JWT.php on line 199.
+ 1 APPPATH\Controllers\Login.php(48): Firebase\JWT\JWT::encode([...], '2a1e41f6da11e04940b647445703bcbc240498')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-07 23:53:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-07 23:55:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-07 23:55:45 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\xampp\htdocs\lhyant.api.spp\app\Controllers\Login.php on line 48 and at least 3 expected
+in FCPATH\vendor\firebase\php-jwt\src\JWT.php on line 199.
+ 1 APPPATH\Controllers\Login.php(48): Firebase\JWT\JWT::encode([...], '2a1e41f6da11e04940b647445703bcbc240498')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-07 23:55:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-07 17:47:15 --> Undefined array key 1
+in APPPATH\Controllers\Me.php on line 24.
+ 1 APPPATH\Controllers\Me.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xampp\\htdocs\\lhyant.api.spp\\app\\Controllers\\Me.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Me->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-07 18:02:15 --> explode(): Argument #1 ($separator) cannot be empty
+in APPPATH\Controllers\Me.php on line 24.
+ 1 APPPATH\Controllers\Me.php(24): explode('', 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MDE5NzE1MTYsIm5iZiI6MTcwMTk3MTUxNiwidWlkIjoiMSIsImVtYWlsIjoiYWRtaW5AYWRtaW4uY29tIn0.ddjJGcXe5qOtVft1f4HCaukE5j5qHekAHXu_uTxs5EU')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Me->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-07 18:17:37 --> Firebase\JWT\JWT::encode(): Argument #1 ($payload) must be of type array, string given, called in C:\xampp\htdocs\lhyant.api.spp\app\Controllers\Me.php on line 27
+in FCPATH\vendor\firebase\php-jwt\src\JWT.php on line 199.
+ 1 APPPATH\Controllers\Me.php(27): Firebase\JWT\JWT::encode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MDE5NzMwMTEsIm5iZiI6MTcwMTk3MzAxMSwidWlkIjoiMSIsImVtYWlsIjoiYWRtaW5AYWRtaW4uY29tIn0.xksR4V-HxS-iafjYAEakXM15aBC1sLdDlnpUZ2Ja-uE', '2a1e41f6da11e04940b647445703bcbc240498', 'HS256')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Me->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-07 18:33:27 --> Undefined array key 1
+in APPPATH\Controllers\Me.php on line 23.
+ 1 APPPATH\Controllers\Me.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xampp\\htdocs\\lhyant.api.spp\\app\\Controllers\\Me.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Me->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-07 18:35:05 --> Firebase\JWT\JWT::encode(): Argument #1 ($payload) must be of type array, string given, called in C:\xampp\htdocs\lhyant.api.spp\app\Controllers\Me.php on line 25
+in FCPATH\vendor\firebase\php-jwt\src\JWT.php on line 199.
+ 1 APPPATH\Controllers\Me.php(25): Firebase\JWT\JWT::encode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MDE5NzM5MjMsIm5iZiI6MTcwMTk3MzkyMywidWlkIjoiMSIsImVtYWlsIjoiYWRtaW5AYWRtaW4uY29tIn0.eqc4rP4I8XiKIUeDqJZ_Ucz59VMryYIPDCQqM78u0aY', '2a1e41f6da11e04940b647445703bcbc240498', 'HS256')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Me->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-07 18:35:47 --> Firebase\JWT\JWT::encode(): Argument #1 ($payload) must be of type array, string given, called in C:\xampp\htdocs\lhyant.api.spp\app\Controllers\Me.php on line 25
+in FCPATH\vendor\firebase\php-jwt\src\JWT.php on line 199.
+ 1 APPPATH\Controllers\Me.php(25): Firebase\JWT\JWT::encode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MDE5NzM5MjMsIm5iZiI6MTcwMTk3MzkyMywidWlkIjoiMSIsImVtYWlsIjoiYWRtaW5AYWRtaW4uY29tIn0.eqc4rP4I8XiKIUeDqJZ_Ucz59VMryYIPDCQqM78u0aY', '2a1e41f6da11e04940b647445703bcbc240498', 'HS256')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Me->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-07 18:44:41 --> Firebase\JWT\JWT::encode(): Argument #1 ($payload) must be of type array, string given, called in C:\xampp\htdocs\lhyant.api.spp\app\Controllers\Me.php on line 27
+in FCPATH\vendor\firebase\php-jwt\src\JWT.php on line 199.
+ 1 APPPATH\Controllers\Me.php(27): Firebase\JWT\JWT::encode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MDE5NzQ0ODgsIm5iZiI6MTcwMTk3NDQ4OCwidWlkIjoiMSIsImVtYWlsIjoiYWRtaW5AYWRtaW4uY29tIn0.eF3h2vvlfYkVUdUx7UhThT5wAu0Z1MXM9jtu4hBEF9k', '2a1e41f6da11e04940b647445703bcbc240498', 'HS256')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Me->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-07 18:52:35 --> Firebase\JWT\JWT::encode(): Argument #1 ($payload) must be of type array, string given, called in C:\xampp\htdocs\lhyant.api.spp\app\Controllers\Me.php on line 28
+in FCPATH\vendor\firebase\php-jwt\src\JWT.php on line 199.
+ 1 APPPATH\Controllers\Me.php(28): Firebase\JWT\JWT::encode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjEzNTY5OTk1MjQsIm5iZiI6MTM1NzAwMDAwMCwidWlkIjoiMSIsImVtYWlsIjoiYWRtaW5AYWRtaW4uY29tIn0.S_lgEXNkUnU5SHa6QLyGISLX9XBSu1CRAbTg2P2aWo8', '2a1e41f6da11e04940b647445703bcbc240498', 'HS256')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Me->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-07 19:05:43 --> Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference
+in APPPATH\Controllers\Me.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Me->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-07 19:06:33 --> Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference
+in APPPATH\Controllers\Me.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Me->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-07 19:07:13 --> Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference
+in APPPATH\Controllers\Me.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Me->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-07 19:08:10 --> Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference
+in APPPATH\Controllers\Me.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Me->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-07 19:08:12 --> Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference
+in APPPATH\Controllers\Me.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Me->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-07 22:28:37 --> App\Controllers\Me::fail(): Argument #2 ($status) must be of type int, Error given, called in C:\xampp\htdocs\lhyant.api.spp\app\Controllers\Me.php on line 36
+in SYSTEMPATH\API\ResponseTrait.php on line 123.
+ 1 APPPATH\Controllers\Me.php(36): App\Controllers\Me->fail('Invalid Token! : ', Object(Error))
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Me->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-07 22:42:59 --> Undefined array key 1
+in APPPATH\Controllers\Me.php on line 24.
+ 1 APPPATH\Controllers\Me.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xampp\\htdocs\\lhyant.api.spp\\app\\Controllers\\Me.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Me->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-07 23:05:53 --> Error decoding JWT: Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference
+ERROR - 2023-12-07 23:05:53 --> Exception details: Error: Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference in C:\xampp\htdocs\lhyant.api.spp\app\Controllers\Me.php:27
+Stack trace:
+#0 C:\xampp\htdocs\lhyant.api.spp\system\CodeIgniter.php(942): App\Controllers\Me->index()
+#1 C:\xampp\htdocs\lhyant.api.spp\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+#2 C:\xampp\htdocs\lhyant.api.spp\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\lhyant.api.spp\index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2023-12-07 23:05:56 --> Error decoding JWT: Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference
+ERROR - 2023-12-07 23:05:56 --> Exception details: Error: Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference in C:\xampp\htdocs\lhyant.api.spp\app\Controllers\Me.php:27
+Stack trace:
+#0 C:\xampp\htdocs\lhyant.api.spp\system\CodeIgniter.php(942): App\Controllers\Me->index()
+#1 C:\xampp\htdocs\lhyant.api.spp\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+#2 C:\xampp\htdocs\lhyant.api.spp\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\lhyant.api.spp\index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2023-12-07 23:06:12 --> Error decoding JWT: Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference
+ERROR - 2023-12-07 23:06:12 --> Exception details: Error: Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference in C:\xampp\htdocs\lhyant.api.spp\app\Controllers\Me.php:27
+Stack trace:
+#0 C:\xampp\htdocs\lhyant.api.spp\system\CodeIgniter.php(942): App\Controllers\Me->index()
+#1 C:\xampp\htdocs\lhyant.api.spp\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+#2 C:\xampp\htdocs\lhyant.api.spp\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\lhyant.api.spp\index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2023-12-07 23:06:46 --> Error decoding JWT: Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference
+ERROR - 2023-12-07 23:06:46 --> Exception details: Error: Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference in C:\xampp\htdocs\lhyant.api.spp\app\Controllers\Me.php:27
+Stack trace:
+#0 C:\xampp\htdocs\lhyant.api.spp\system\CodeIgniter.php(942): App\Controllers\Me->index()
+#1 C:\xampp\htdocs\lhyant.api.spp\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+#2 C:\xampp\htdocs\lhyant.api.spp\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\lhyant.api.spp\index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2023-12-07 23:08:29 --> Error decoding JWT: Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference
+ERROR - 2023-12-07 23:08:29 --> Exception details: Error: Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference in C:\xampp\htdocs\lhyant.api.spp\app\Controllers\Me.php:27
+Stack trace:
+#0 C:\xampp\htdocs\lhyant.api.spp\system\CodeIgniter.php(942): App\Controllers\Me->index()
+#1 C:\xampp\htdocs\lhyant.api.spp\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+#2 C:\xampp\htdocs\lhyant.api.spp\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\lhyant.api.spp\index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2023-12-07 23:08:31 --> Error decoding JWT: Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference
+ERROR - 2023-12-07 23:08:31 --> Exception details: Error: Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference in C:\xampp\htdocs\lhyant.api.spp\app\Controllers\Me.php:27
+Stack trace:
+#0 C:\xampp\htdocs\lhyant.api.spp\system\CodeIgniter.php(942): App\Controllers\Me->index()
+#1 C:\xampp\htdocs\lhyant.api.spp\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+#2 C:\xampp\htdocs\lhyant.api.spp\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\lhyant.api.spp\index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-12-07 23:08:51 --> Cannot call constructor
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-07 23:09:27 --> Error decoding JWT: Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference
+ERROR - 2023-12-07 23:09:27 --> Exception details: Error: Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference in C:\xampp\htdocs\lhyant.api.spp\app\Controllers\Me.php:27
+Stack trace:
+#0 C:\xampp\htdocs\lhyant.api.spp\system\CodeIgniter.php(942): App\Controllers\Me->index()
+#1 C:\xampp\htdocs\lhyant.api.spp\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+#2 C:\xampp\htdocs\lhyant.api.spp\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\lhyant.api.spp\index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2023-12-07 23:09:30 --> Error decoding JWT: Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference
+ERROR - 2023-12-07 23:09:30 --> Exception details: Error: Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference in C:\xampp\htdocs\lhyant.api.spp\app\Controllers\Me.php:27
+Stack trace:
+#0 C:\xampp\htdocs\lhyant.api.spp\system\CodeIgniter.php(942): App\Controllers\Me->index()
+#1 C:\xampp\htdocs\lhyant.api.spp\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+#2 C:\xampp\htdocs\lhyant.api.spp\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\lhyant.api.spp\index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-12-07 23:19:11 --> Cannot call constructor
+in APPPATH\Controllers\Login.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-07 23:19:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-07 23:20:12 --> Error decoding JWT: Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference
+ERROR - 2023-12-07 23:20:12 --> Exception details: Error: Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference in C:\xampp\htdocs\lhyant.api.spp\app\Controllers\Me.php:26
+Stack trace:
+#0 C:\xampp\htdocs\lhyant.api.spp\system\CodeIgniter.php(942): App\Controllers\Me->index()
+#1 C:\xampp\htdocs\lhyant.api.spp\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+#2 C:\xampp\htdocs\lhyant.api.spp\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\lhyant.api.spp\index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2023-12-07 23:20:14 --> Error decoding JWT: Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference
+ERROR - 2023-12-07 23:20:14 --> Exception details: Error: Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference in C:\xampp\htdocs\lhyant.api.spp\app\Controllers\Me.php:26
+Stack trace:
+#0 C:\xampp\htdocs\lhyant.api.spp\system\CodeIgniter.php(942): App\Controllers\Me->index()
+#1 C:\xampp\htdocs\lhyant.api.spp\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+#2 C:\xampp\htdocs\lhyant.api.spp\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\lhyant.api.spp\index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2023-12-07 23:20:54 --> Error decoding JWT: Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference
+ERROR - 2023-12-07 23:20:54 --> Exception details: Error: Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference in C:\xampp\htdocs\lhyant.api.spp\app\Controllers\Me.php:26
+Stack trace:
+#0 C:\xampp\htdocs\lhyant.api.spp\system\CodeIgniter.php(942): App\Controllers\Me->index()
+#1 C:\xampp\htdocs\lhyant.api.spp\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+#2 C:\xampp\htdocs\lhyant.api.spp\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\lhyant.api.spp\index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2023-12-07 23:21:01 --> Error decoding JWT: Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference
+ERROR - 2023-12-07 23:21:01 --> Exception details: Error: Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference in C:\xampp\htdocs\lhyant.api.spp\app\Controllers\Me.php:26
+Stack trace:
+#0 C:\xampp\htdocs\lhyant.api.spp\system\CodeIgniter.php(942): App\Controllers\Me->index()
+#1 C:\xampp\htdocs\lhyant.api.spp\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+#2 C:\xampp\htdocs\lhyant.api.spp\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\lhyant.api.spp\index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-12-07 23:23:53 --> Call to undefined function App\Controllers\prit()
+in APPPATH\Controllers\Me.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Me->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-07 23:24:33 --> Call to undefined function App\Controllers\prit()
+in APPPATH\Controllers\Me.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Me->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-07 23:24:36 --> Call to undefined function App\Controllers\prit()
+in APPPATH\Controllers\Me.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Me->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-07 23:28:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-07 23:30:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-07 23:30:23 --> Firebase\JWT\JWT::encode(): Argument #3 ($alg) must be of type string, array given, called in C:\xampp\htdocs\lhyant.api.spp\app\Controllers\Login.php on line 47
+in FCPATH\vendor\firebase\php-jwt\src\JWT.php on line 199.
+ 1 APPPATH\Controllers\Login.php(47): Firebase\JWT\JWT::encode([...], '2a1e41f6da11e04940b647445703bcbc240498', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-07 23:32:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-07 23:40:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-07 23:41:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-07 23:48:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-07 23:52:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-07 23:53:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
