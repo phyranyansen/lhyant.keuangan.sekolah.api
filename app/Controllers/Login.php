@@ -108,6 +108,8 @@ class Login extends ResourceController
             'refreshToken'   => $refreshToken, 
             'user_id'        => $user['user_id']
         ];
+
+        session()->set($response);
     
         return $response;
     }
