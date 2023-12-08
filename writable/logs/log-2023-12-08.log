@@ -1,0 +1,431 @@
+WARNING - 2023-12-08 00:14:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 00:21:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 00:34:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 00:34:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 00:34:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 00:35:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 00:37:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 00:43:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 00:43:42 --> Undefined variable $jwt
+in APPPATH\Controllers\Login.php on line 49.
+ 1 APPPATH\Controllers\Login.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jwt', 'C:\\xampp\\htdocs\\lhyant.api.spp\\app\\Controllers\\Login.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 00:44:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 00:44:06 --> Undefined variable $token
+in APPPATH\Controllers\Login.php on line 48.
+ 1 APPPATH\Controllers\Login.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $token', 'C:\\xampp\\htdocs\\lhyant.api.spp\\app\\Controllers\\Login.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 00:44:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 00:44:20 --> Undefined variable $token
+in APPPATH\Controllers\Login.php on line 48.
+ 1 APPPATH\Controllers\Login.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $token', 'C:\\xampp\\htdocs\\lhyant.api.spp\\app\\Controllers\\Login.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 00:44:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 00:48:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 00:49:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 00:51:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 01:03:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 01:16:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 01:20:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 01:32:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 01:41:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 01:48:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 01:50:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 01:51:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 01:56:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 01:58:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 01:58:46 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\xampp\htdocs\lhyant.api.spp\app\Controllers\Login.php on line 49 and at least 3 expected
+in FCPATH\vendor\firebase\php-jwt\src\JWT.php on line 199.
+ 1 APPPATH\Controllers\Login.php(49): Firebase\JWT\JWT::encode([...], '2a1e41f6da11e04940b647445703bcbc240498')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 01:59:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 02:02:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 02:02:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 02:03:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 05:17:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 05:21:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 05:27:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 05:33:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 05:38:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 05:41:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 05:42:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 05:43:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 05:50:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 05:50:15 --> Class "App\Controllers\Key" not found
+in APPPATH\Controllers\Login.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 05:50:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 05:51:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 06:06:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 00:10:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 00:10:54 --> Class "App\Controllers\DateTime" not found
+in APPPATH\Controllers\Login.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 00:11:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 00:11:17 --> Class "App\Controllers\DateTime" not found
+in APPPATH\Controllers\Login.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 00:12:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 00:12:22 --> Class "App\Controllers\DateTime" not found
+in APPPATH\Controllers\Login.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 00:12:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 00:12:35 --> Class "App\Controllers\DateTime" not found
+in APPPATH\Controllers\Login.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 00:13:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 00:13:14 --> Class "App\Controllers\DateTime" not found
+in APPPATH\Controllers\Login.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 00:13:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 00:13:42 --> Class "App\Controllers\DateTime" not found
+in APPPATH\Controllers\Login.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 00:15:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 00:16:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 00:16:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-08 07:17:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$user is deprecated in APPPATH\Controllers\Login.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 02:12:39 --> Undefined variable $expirationDateTime
+in APPPATH\Controllers\Login.php on line 88.
+ 1 APPPATH\Controllers\Login.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $expirationDateTime', 'C:\\xampp\\htdocs\\lhyant.api.spp\\app\\Controllers\\Login.php', 88)
+ 2 APPPATH\Controllers\Login.php(41): App\Controllers\Login->generateToken([...])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 02:26:18 --> Firebase\JWT\JWT::decode(): Argument #3 ($headers) cannot be passed by reference
+in APPPATH\Controllers\Login.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->refreshToken()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 02:32:12 --> Undefined property: stdClass::$tokenExpTime
+in APPPATH\Controllers\Login.php on line 71.
+ 1 APPPATH\Controllers\Login.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$tokenExpTime', 'C:\\xampp\\htdocs\\lhyant.api.spp\\app\\Controllers\\Login.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->refreshToken()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 03:08:35 --> Call to a member function getServer() on null
+in APPPATH\Controllers\User.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\User->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 03:10:19 --> Call to a member function getServer() on null
+in APPPATH\Controllers\User.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\User->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 03:10:21 --> Call to a member function getServer() on null
+in APPPATH\Controllers\User.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\User->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 03:10:43 --> Call to a member function getServer() on null
+in APPPATH\Controllers\User.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\User->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 03:12:25 --> Call to a member function setContentType() on null
+in SYSTEMPATH\API\ResponseTrait.php on line 331.
+ 1 SYSTEMPATH\API\ResponseTrait.php(98): App\Controllers\User->format([...])
+ 2 SYSTEMPATH\API\ResponseTrait.php(135): App\Controllers\User->respond([...], 500, '')
+ 3 APPPATH\Controllers\User.php(33): App\Controllers\User->fail([...], 500)
+ 4 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\User->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 03:12:27 --> Call to a member function setContentType() on null
+in SYSTEMPATH\API\ResponseTrait.php on line 331.
+ 1 SYSTEMPATH\API\ResponseTrait.php(98): App\Controllers\User->format([...])
+ 2 SYSTEMPATH\API\ResponseTrait.php(135): App\Controllers\User->respond([...], 500, '')
+ 3 APPPATH\Controllers\User.php(33): App\Controllers\User->fail([...], 500)
+ 4 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\User->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 03:13:38 --> Call to a member function setContentType() on null
+in SYSTEMPATH\API\ResponseTrait.php on line 331.
+ 1 SYSTEMPATH\API\ResponseTrait.php(98): App\Controllers\User->format([...])
+ 2 SYSTEMPATH\API\ResponseTrait.php(135): App\Controllers\User->respond([...], 500, '')
+ 3 APPPATH\Controllers\User.php(37): App\Controllers\User->fail([...], 500)
+ 4 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\User->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 03:13:39 --> Call to a member function setContentType() on null
+in SYSTEMPATH\API\ResponseTrait.php on line 331.
+ 1 SYSTEMPATH\API\ResponseTrait.php(98): App\Controllers\User->format([...])
+ 2 SYSTEMPATH\API\ResponseTrait.php(135): App\Controllers\User->respond([...], 500, '')
+ 3 APPPATH\Controllers\User.php(37): App\Controllers\User->fail([...], 500)
+ 4 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\User->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 09:46:55 --> Class "App\Filters\ResponseInterfase" not found
+in APPPATH\Filters\Auth.php on line 28.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('users', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 09:47:32 --> Class "App\Filters\ResponseInterfase" not found
+in APPPATH\Filters\Auth.php on line 20.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('users', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 09:47:34 --> Class "App\Filters\ResponseInterfase" not found
+in APPPATH\Filters\Auth.php on line 20.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('users', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 09:48:04 --> Undefined constant CodeIgniter\HTTP\ResponseInterface::HTT_UNAUTHORIZED
+in APPPATH\Filters\Auth.php on line 20.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('users', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-08 14:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 14:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 14:38:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 14:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 14:38:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 14:38:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
