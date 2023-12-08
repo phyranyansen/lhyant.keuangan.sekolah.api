@@ -19,9 +19,16 @@ class Auth implements FilterInterface
         if(!$header) return Services::response()
         ->setJSON(['msg' => 'Token Authorized'])
         ->setStatusCode(ResponseInterface::HTTP_UNAUTHORIZED);
-    
+
+        
         $token = explode(' ', $header)[1];
+        $currentLoginToken = session()->get('token'); 
+
         try {
+            if($token != $currentLoginToken) return Services::response()
+            ->setJSON(['msg' => 'Invalid Token'])
+            ->setStatusCode(ResponseInterface::HTTP_UNAUTHORIZED);
+            
           JWT::decode($token, new Key($key, 'HS256'));
         } catch (\Throwable $th) {
             return Services::response()
