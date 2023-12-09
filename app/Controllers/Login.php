@@ -18,7 +18,6 @@ class Login extends ResourceController
     public function __construct()
     {
         $this->user = new UserModel();
-        //controller -------------------
         $this->token = new Token();
     }
 
@@ -41,7 +40,6 @@ class Login extends ResourceController
         if (!sha1($password, $passwordHash)) return $this->fail('Password salah!');
        
         $jwt = $this->token->index($user);
-
         return $this->respond($jwt);
     }
 
