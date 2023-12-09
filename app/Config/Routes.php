@@ -17,3 +17,4 @@ $routes->post('/student/add','Service\Master\StudentController::addStudent', ['f
 $routes->post('/student/delete','Service\Master\StudentController::deleteStudent', ['filter' => 'auth']);
 $routes->get('/users', 'Service\Master\User::index', ['filter' => 'auth']);
 $routes->get('/users/show', 'Service\Master\User::show', ['filter' => 'auth']);
+$routes->post('/users/create', 'Service\Master\User::create', ['filter' => 'auth']);
