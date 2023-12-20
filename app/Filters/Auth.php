@@ -15,13 +15,14 @@ class Auth implements FilterInterface
     public function before(RequestInterface $request, $arguments = null)
     {
         $key = getenv('TOKEN_SECRET');
-        $header = $request->getServer('HTTP_AUTHORIZATION');
-        if(!$header) return Services::response()
-        ->setJSON(['message' => 'Token Authorized'])
-        ->setStatusCode(ResponseInterface::HTTP_UNAUTHORIZED);
+        $header = $request->getServer('REDIRECT_HTTP_AUTHORIZATION');
+        if(!$header) {
+            return Services::response()
+                ->setJSON(['message' => 'Token Unauthorized'])
+                ->setStatusCode(ResponseInterface::HTTP_UNAUTHORIZED);
+        }
 
-        
-        $token = explode(' ', $header)[1];
+        $token = explode('Bearer ', $header)[1];
         $currentLoginToken = session()->get('token'); 
 
         try {
